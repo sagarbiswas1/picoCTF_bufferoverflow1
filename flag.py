@@ -64,7 +64,7 @@ def send(host,port):
         print('\033[32msending payload..\033[0m\n')
         s.send(payload)
         
-        flag = s.recv(4096).decode('utf-8').split('\n')[2]
+        flag = s.recv(8192).decode('utf-8').split('\n')[2]
         print(f'\033[36m{flag}\033[0m')
 
 if __name__ == '__main__':
