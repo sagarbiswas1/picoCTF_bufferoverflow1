@@ -5,7 +5,8 @@ picoCTF 2022 Buffer Overflow 1 Binary Exploitation
 ```
 flag.py [ HOST ] [ PORT ]
 ```
-If the file command or read elf command not found error occurs while running this script, you need to install them.
+**Note:**\
+If the `file` command or `readelf` command not found error occurs while running this script, you need to install them.
 
 # Install readelf
 
