@@ -7,7 +7,7 @@ flag.py [ HOST ] [ PORT ]
 ```
 If the file command or read elf command not found error occurs while running this script, you need to install them.
 
-**:: Install readelf ::**
+# Install readelf
 
 **Kali Linux**
 ```
@@ -50,6 +50,13 @@ apt-get install binutils-multiarch
 docker run cmd.cat/readelf readelf
 ```
 
-**:: Install file ::**
+# Install file
 
-```sudo apt install file```
+**linux using apt**
+```
+sudo apt install file
+```
+**Ubuntu**
+```
+apt-get install file
+```
